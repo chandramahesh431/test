@@ -1,0 +1,43 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+   
+  }
+  
+  .flex-container > div {
+    background-color: #F1F5F8;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  
+  .addIcon {
+    margin-top: "16px";
+    margin-right: "64px";
+  }
+  
+  flex-container-nest {
+    display: flex;
+    flex-direction: column;
+  }
+  
+  .flex-container-nest > div {
+    background-color: #F1F5F8;
+    text-align: start;
+    line-height: 75px;
+    font-size: 30px;
+    width: 76%;
+    padding-left: 150px;
+  }
+  .flex-container-nest > div:last-child {
+    text-align: end;
+  }
+  .flex-container-nest > div:nth-child(2) {
+    min-height: 350px;
+  }
+  
+  .flex-container-nest > div:first-child {
+    margin-top: 20px;
+    margin-bottom: 20px;
+  }
+  
